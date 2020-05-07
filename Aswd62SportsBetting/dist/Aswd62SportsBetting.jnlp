@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Aswd62SportsBetting.jnlp">
+  <information>
+    <title>Aswd62SportsBetting</title>
+    <vendor>Nick_Work</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Aswd62SportsBetting.jar" size="15107" download="eager" />
+    <jar href="lib/json-simple-1.1.1.jar" size="23737" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Aswd62SportsBetting" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="aswd62sportsbetting.Aswd62SportsBetting"  name="Aswd62SportsBetting" />
+  <update check="always"/>
+</jnlp>
