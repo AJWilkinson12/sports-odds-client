@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="437.0" prefWidth="694.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aswd62sportsbetting.Page2Controller">
+   <children>
+      <Label fx:id="game" layoutX="308.0" layoutY="143.0" text="Game:">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></Label>
+      <Label fx:id="gameLabel" layoutX="365.0" layoutY="143.0" text="-">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></Label>
+      <Label fx:id="home" layoutX="306.0" layoutY="177.0" text="Hometeam:">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></Label>
+      <Label fx:id="homeLabel" layoutX="391.0" layoutY="177.0" text="-">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></Label>
+      <Label fx:id="time" layoutX="306.0" layoutY="211.0" text="Time:">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="timeLabel" layoutX="360.0" layoutY="211.0" text="-">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></Label>
+      <Label fx:id="spread" layoutX="306.0" layoutY="245.0" text="Spread:">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></Label>
+      <Label fx:id="spreadLabel" layoutX="370.0" layoutY="245.0" text="-">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font></Label>
+      <Label fx:id="source" layoutX="306.0" layoutY="274.0" text="Source:">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="287.0" layoutY="43.0" mnemonicParsing="false" onAction="#goBackToPage1" text="About" />
+      <TextField fx:id="searchTextField" layoutX="59.0" layoutY="44.0" promptText="Enter a sport" />
+      <Label fx:id="searchLabel" layoutX="14.0" layoutY="47.0" text="Sport:">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></Label>
+      <Button layoutX="226.0" layoutY="43.0" mnemonicParsing="false" onAction="#handleSearch" text="Search" />
+      <ListView fx:id="listView" layoutX="14.0" layoutY="85.0" prefHeight="319.0" prefWidth="282.0" />
+      <Label fx:id="sourceLabel" layoutX="370.0" layoutY="274.0" text="-">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

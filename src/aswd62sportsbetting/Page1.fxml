@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="437.0" prefWidth="694.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aswd62sportsbetting.Page1Controller">
+   <children>
+      <Button layoutX="541.0" layoutY="194.0" mnemonicParsing="false" onAction="#goToPage2" text="Let's Go" />
+      <Label fx:id="label" layoutX="75.0" layoutY="108.0" text="Sports Betting Application">
+         <font>
+            <Font name="Times New Roman" size="28.0" />
+         </font></Label>
+      <Label fx:id="introLabel" alignment="TOP_LEFT" layoutX="75.0" layoutY="146.0" lineSpacing="2.0" minHeight="16" minWidth="69" prefHeight="84.0" prefWidth="301.0" text="This application was developed by AJ Wilkinson for CS3330. This application uses 'The Odds-API' to obtain spreads for betting on a number of sports. Click the button to get started. -&gt;" wrapText="true">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="75.0" layoutY="230.0" prefHeight="61.0" prefWidth="326.0" text="Developer information can be found at:&#10; https://the-odds-api.com/liveapi/guides/v3/#overview" />
+   </children>
+</AnchorPane>
